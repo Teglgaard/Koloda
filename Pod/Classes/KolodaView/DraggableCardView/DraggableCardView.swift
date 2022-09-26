@@ -38,10 +38,10 @@ private let defaultScaleMin: CGFloat = 0.8
 private let screenSize = UIScreen.main.bounds.size
 
 //Reset animation constants
-private let cardResetAnimationSpringBounciness: CGFloat = 10.0
-private let cardResetAnimationSpringSpeed: CGFloat = 20.0
+private let cardResetAnimationSpringBounciness: CGFloat = 12.0
+private let cardResetAnimationSpringSpeed: CGFloat = 10.0
 private let cardResetAnimationKey = "resetPositionAnimation"
-private let cardResetAnimationDuration: TimeInterval = 0.2
+private let cardResetAnimationDuration: TimeInterval = 0.4
 internal var cardSwipeActionAnimationDuration: TimeInterval = DragSpeed.default.rawValue
 
 public class DraggableCardView: UIView, UIGestureRecognizerDelegate {
